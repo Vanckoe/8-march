@@ -16,7 +16,9 @@ const ContactsMain = () => {
             <p className="text-base uppercase font-bold text-[#CACACA]">
               Telegram
             </p>
-            <p className="text-2xl font-semibold">@Vanckoe21</p>
+            <p className="text-2xl font-semibold">
+              @Vanckoe21 <br /> @Ctv777
+            </p>
           </div>
           <div className="flex flex-col ">
             <p className="text-base uppercase font-bold text-[#CACACA]">
