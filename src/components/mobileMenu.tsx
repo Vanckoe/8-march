@@ -61,14 +61,6 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ textColorFirstStage }) => {
               </Link>
 
               <nav className="flex flex-col gap-6 mt-9 text-[#3E3E3E] text-2xl font-semibold">
-                <Link
-                  href="/about"
-                  className="hover:text-[#1151AB] text-sm"
-                  onClick={handleClose}
-                >
-                  {t("aboutCompany")}
-                  {/* О компании */}
-                </Link>
                 {/* <button
                   className="hover:text-[#1151AB] text-sm flex items-center justify-between"
                   onClick={toggleActivities}
@@ -140,20 +132,19 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ textColorFirstStage }) => {
                   )}
                 </AnimatePresence>
                 <Link
-                  href="/technology"
+                  href="/main"
                   className="hover:text-[#1151AB] text-sm"
                   onClick={handleClose}
                 >
                   {t("sustainableDevelopment")}
-                  {/* Технологии */}
                 </Link>
-                {/* <Link
-                  href="/media"
+                <Link
+                  href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C"
                   className="hover:text-[#1151AB] text-sm"
                   onClick={handleClose}
                 >
-                  {t("mediaCenter")}
-                </Link> */}
+                  {t("aboutCompany")}
+                </Link>
                 {/* Медиа-центр */}
 
                 <Link
@@ -165,23 +156,6 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ textColorFirstStage }) => {
                   {/* Контакты */}
                 </Link>
               </nav>
-
-              <div className="mt-6">
-                <p className="text-sm font-bold text-[#CACACA] mb-1">
-                  {t("phoneNumber")}
-                  {/* НОМЕР ТЕЛЕФОНА */}
-                </p>
-                <p className="text-xl font-semibold text-[#3E3E3E]">
-                  +7 (XXX) XXX - XX - XX
-                </p>
-                <p className="text-sm font-bold text-[#CACACA] mb-1 mt-4">
-                  {t("email")}
-                  {/* ЭЛЕКТРОННАЯ ПОЧТА */}
-                </p>
-                <p className="text-xl font-semibold text-[#3E3E3E]">
-                  info@kcmg.kz
-                </p>
-              </div>
             </motion.div>
           </>
         )}

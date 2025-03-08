@@ -5,8 +5,8 @@ import Benefits from "./_components/benefits";
 // import Services from "./_components/services";
 // import News from "./_components/news";
 import ContactsMain from "./_components/contactMain";
-import Unicum from "../about/_components/unicum";
-import TechBenefits from "../technology/_components/techBenefits";
+// import Unicum from "../about/_components/unicum";
+// import TechBenefits from "../technology/_components/techBenefits";
 
 const About = () => {
   return (
@@ -16,8 +16,8 @@ const About = () => {
       <Benefits />
       {/* <Services /> */}
       {/* <News /> */}
-      <TechBenefits />
-      <Unicum />
+      {/* <TechBenefits /> */}
+      {/* <Unicum /> */}
       <ContactsMain />
     </div>
   );
