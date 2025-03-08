@@ -14,32 +14,20 @@ const ContactsMain = () => {
         <div className=" flex flex-col md:gap-16 gap-4 md:flex-row md:items-center md:justify-start">
           <div className="flex flex-col ">
             <p className="text-base uppercase font-bold text-[#CACACA]">
-              {/* НОМЕР ТЕЛЕФОНА{" "} */}
-              {t("phoneNumber")}
+              Telegram
             </p>
-            <p className="text-2xl font-semibold">+7 (702) 196 0656 </p>
+            <p className="text-2xl font-semibold">@Vanckoe21</p>
           </div>
           <div className="flex flex-col ">
             <p className="text-base uppercase font-bold text-[#CACACA]">
-              {/* адрес офиса в г. алматы */}
-              {t("officeAddress")}
+              Instagram
             </p>
-            <p className="text-2xl font-semibold">
-              {/* ул. Сапаргали Бегалина 148/6 */}
-              {t("addressDetails")}
-            </p>
-          </div>
-          <div className="flex flex-col ">
-            <p className="text-base font-bold uppercase text-[#CACACA]">
-              {/* Электронная почта{" "} */}
-              {t("email")}
-            </p>
-            <p className="text-2xl font-semibold">info@kcmg.kz</p>
+            <p className="text-2xl font-semibold">@born_in_the_steppe</p>
           </div>
         </div>
         <div className="col-span-2">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2556.8554861759258!2d76.96098401315838!3d43.24185642233755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDE0JzMwLjQiTiA3NsKwNTcnNTguMSJF!5e0!3m2!1sru!2skz!4v1733925538918!5m2!1sru!2skz"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2575602.7266141754!2d-78.79002451186905!3d24.272643039414294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQzJzQ0LjQiTiA3N8KwNDknNDEuNyJX!5e1!3m2!1sru!2skz!4v1741408405479!5m2!1sru!2skz"
             width="600"
             height="550"
             className="border-0 w-full"
@@ -47,6 +35,15 @@ const ContactsMain = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
+          {/* <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2575602.7266141754!2d-78.79002451186905!3d24.272643039414294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQzJzQ0LjQiTiA3N8KwNDknNDEuNyJX!5e1!3m2!1sru!2skz!4v1741408405479!5m2!1sru!2skz"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe> */}
         </div>
         {/* <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.8019541824424!2d71.42381315992068!3d51.14900311483395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424586b7c4e3ffff%3A0xeaa2e1e41c05a638!2z0L_RgNC-0YHQvy4g0JrQsNCx0LDQvdCx0LDQuSDQkdCw0YLRi9GA0LAgMi82LCDQkNGB0YLQsNC90LAgMDEwMDAw!5e0!3m2!1sru!2skz!4v1732976634673!5m2!1sru!2skz"

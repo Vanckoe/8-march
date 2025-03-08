@@ -53,11 +53,6 @@ const Footer = () => {
             </button> */}
             <LanguageSwitcher textColorFirstStage={"text-white"} />
           </div>
-          <p className="text-sm text-start font-semibold md:text-end mt-4">
-            {/* Горнодобывающая компания, специализирующаяся на поддержке запуска и
-            развития промышленной деятельности предприятий */}
-            {t("description")}
-          </p>
         </div>
       </footer>
     </div>

@@ -39,12 +39,12 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
           onClick={() => handleLanguageChange("cn")}
         >
           <Image
-            src="/flags/china.png"
-            alt="Флаг Китая"
+            src="/flags/kz.png"
+            alt="Флаг Казахстана"
             width={16}
             height={16}
           />
-          中文
+          Қазақща
         </button>
       ) : (
         // Button to switch to Russian

@@ -2,7 +2,7 @@ import React from "react";
 import AboutHero from "./_components/aboutHero";
 import WhoWeAre from "./_components/whoWeAre";
 import Benefits from "./_components/benefits";
-import Services from "./_components/services";
+// import Services from "./_components/services";
 // import News from "./_components/news";
 import ContactsMain from "./_components/contactMain";
 
@@ -12,7 +12,7 @@ const About = () => {
       <AboutHero />
       <WhoWeAre />
       <Benefits />
-      <Services />
+      {/* <Services /> */}
       {/* <News /> */}
       <ContactsMain />
     </div>

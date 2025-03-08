@@ -9,7 +9,7 @@ const WhoWeAre = () => {
 
   return (
     <div className="w-full">
-      <div className="mx-auto container px-[30px] w-full flex flex-col md:flex-row gap-[50px] md:gap-[100px]">
+      <div className="mx-auto container px-[30px] w-full flex items-center flex-col md:flex-row gap-[50px] md:gap-[100px]">
         <div className="flex flex-col w-full">
           <h1 className=" text-[#224A87]">{t("title")}</h1>
           <p className="text-[18px] font-semibold mt-8">{t("description")}</p>
@@ -20,24 +20,25 @@ const WhoWeAre = () => {
             <div className="grid grid-cols-2 items-center justify-center gap-8">
               <div className="flex flex-col items-center">
                 <Image
-                  src="/about/world.png"
+                  src="/matrch/pic1.png"
                   alt="Описание изображения"
                   width={104}
                   height={104}
-                  className="object-cover md:w-[90px] md:h-[90px]"
+                  className="object-contain md:w-[90px] md:h-[90px] max-w-full max-h-full"
                 />
                 <p className="text-xs text-center font-medium">
-                  World Academy <br /> of Mining Sciences
+                  {t("partners.partner1")}
                 </p>
               </div>
               <div className="flex flex-col items-center">
                 <Image
-                  src="/about/national.png"
+                  src="/matrch/pic2.png"
                   alt="Описание изображения"
                   width={104}
                   height={104}
-                  className="object-cover md:w-[90px] md:h-[90px]"
+                  className="object-contain md:w-[90px] md:h-[90px] max-w-full max-h-full"
                 />
+
                 <p className="text-xs text-center font-medium">
                   {/* {t("partners.partner2")} */}
                   {locale === "ru" ? (
@@ -52,12 +53,13 @@ const WhoWeAre = () => {
               </div>
               <div className="flex flex-col items-center">
                 <Image
-                  src="/about/union.png"
+                  src="/matrch/pic4.png"
                   alt="Описание изображения"
                   width={104}
                   height={104}
-                  className="object-cover md:w-[90px] md:h-[90px]"
+                  className="object-contain md:w-[90px] md:h-[90px] max-w-full max-h-full"
                 />
+
                 <p className="text-xs text-center font-medium">
                   {locale === "ru" ? (
                     <>
@@ -71,14 +73,14 @@ const WhoWeAre = () => {
               </div>
               <div className="flex flex-col items-center">
                 <Image
-                  src="/about/ZHI.png"
+                  src="/matrch/pic3.png"
                   alt="Описание изображения"
                   width={104}
                   height={104}
                   className="object-cover md:w-[90px] md:h-[90px]"
                 />
                 <p className="text-xs text-center font-medium">
-                  Zhongjin Heavy <br /> Industry
+                  {t("partners.partner4")}
                 </p>
               </div>
             </div>

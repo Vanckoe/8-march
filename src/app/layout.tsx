@@ -13,8 +13,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "KCMG",
-  description: "KCMG",
+  title: "With love",
+  description: "From heart",
 };
 
 export default async function RootLayout({
