@@ -76,6 +76,12 @@ const HeaderMain = () => {
           </Link>
           <div className="hidden md:flex flex-row items-center gap-10">
             <Link
+              href={"/main"}
+              className={`text-sm  ${getLinkClassName("/main")}`}
+            >
+              {t("technologies")}
+            </Link>
+            <Link
               href={"/about"}
               className={`text-sm  ${getLinkClassName("/about")}`}
             >
@@ -88,13 +94,7 @@ const HeaderMain = () => {
               textColorFirstStage={textColor}
               logoColor={logoColor}
             /> */}
-            <Link
-              href={"/technology"}
-              className={`text-sm  ${getLinkClassName("/technology")}`}
-            >
-              {t("technologies")}
-              {/* Технологии */}
-            </Link>
+
             {/* <Link
               href={"/media"}
               className={`text-sm  ${getLinkClassName("/media")}`}

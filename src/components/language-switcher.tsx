@@ -44,7 +44,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
             width={16}
             height={16}
           />
-          Қазақща
+          Қазақша
         </button>
       ) : (
         // Button to switch to Russian

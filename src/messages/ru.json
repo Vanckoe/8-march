@@ -3,11 +3,11 @@
     "title": "Hello world!"
   },
   "Navigation": {
-    "aboutCompany": "О компании",
+    "aboutCompany": "История",
     "activity": "Деятельность",
-    "technologies": "Технологии",
+    "technologies": "Главная",
     "mediaCenter": "Медиа-центр",
-    "contacts": "Контакты"
+    "contacts": "Куда любить"
   },
   "Main": {
     "title": "Kazakhstan-China Mining Group Ltd.",
@@ -54,9 +54,9 @@
       "scientificSolutions": "Научные исследования с анализом и готовыми решениями под ваши задачи"
     },
     "learnMore": "Подробнее",
-    "aboutCompany": "О компании",
+    "aboutCompany": "",
     "activities": "Деятельность",
-    "sustainableDevelopment": "Технологии",
+    "sustainableDevelopment": "Главная",
     "mediaCenter": "Медиа-центр",
     "phoneNumber": "НОМЕР ТЕЛЕФОНА",
     "email": "Электронная почта",
@@ -239,11 +239,11 @@
     "mineralExtraction": "Научно-исследовательские работы"
   },
   "FooterBlock": {
-    "aboutCompany": "О компании",
+    "aboutCompany": "История",
     "activities": "Деятельность",
-    "sustainableDevelopment": "Технологии",
+    "sustainableDevelopment": "Главная",
     "mediaCenter": "Медиа-центр",
-    "contacts": "Контакты",
+    "contacts": "Куда любить",
     "copyright": "© Все права женщин защищены"
   },
   "ResearchAndAnalysis": {

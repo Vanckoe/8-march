@@ -18,8 +18,7 @@ const AboutHero = () => {
       <div className="mx-auto z-30 container h-[100vh] justify-between items-stretch px-[30px] w-full pt-9 flex flex-col md:justify-between">
         <div className="flex flex-col md:flex-row ">
           <p className="text-5xl text-[#003277] md:w-3/5 md:text-[72px] leading-[48px] md:leading-[72px] font-semibold">
-            C 8 марта
-            {/* {t('subtitle')} */}
+            C 8 марта / <br /> 8 Наурызыңызбен {/* {t('subtitle')} */}
           </p>
           <div className="pt-5 z-30 md:w-2/5 flex flex-col gap-7">
             <p className="text-base md:text-xl font-semibold">
