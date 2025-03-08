@@ -10,7 +10,7 @@ const AboutBenefits = () => {
       {/* Фон изображения */}
       <div className="absolute top-0 left-0 w-full h-[740px] md:h-[650px]">
         <Image
-          src="/about/about3bg.png"
+          src="/matrch/dog.webp"
           alt="Железнодорожные пути"
           layout="fill"
           objectFit="cover"
@@ -18,7 +18,7 @@ const AboutBenefits = () => {
           className="z-0 hidden md:block"
         />
         <Image
-          src="/about/about3bgMini.png"
+          src="/matrch/dog.webp"
           alt="Железнодорожные пути"
           layout="fill"
           objectFit="cover"

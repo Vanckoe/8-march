@@ -29,7 +29,7 @@ const Title = () => {
 
       {/* Текст поверх изображения */}
       <div className="relative z-10 container mx-auto px-[30px] w-full">
-        <p className="text-white text-[40px] md:text-[80px] font-semibold">
+        <p className="md:text-white text-[#3E3E3E] text-[40px] md:text-[80px] font-semibold">
           {/* О компании */}
           {t("title")}
         </p>

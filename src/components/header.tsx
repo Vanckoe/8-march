@@ -5,7 +5,7 @@ import Link from "next/link";
 import Logo from "@/assets/Logo";
 import LanguageSwitcher from "./language-switcher";
 import { useTranslations } from "next-intl";
-import ActivityMenu from "./activityMenu";
+// import ActivityMenu from "./activityMenu";
 import { usePathname } from "next/navigation";
 
 const HeaderMain = () => {
@@ -82,12 +82,12 @@ const HeaderMain = () => {
               {/* О компании */}
               {t("aboutCompany")}
             </Link>
-            <ActivityMenu
+            {/* <ActivityMenu
               textTitle={t("activity")}
               isScrolled={isScrolled}
               textColorFirstStage={textColor}
               logoColor={logoColor}
-            />
+            /> */}
             <Link
               href={"/technology"}
               className={`text-sm  ${getLinkClassName("/technology")}`}

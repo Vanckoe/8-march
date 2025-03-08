@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import Burger from "@/assets/Burger";
 import Logo from "@/assets/Logo";
 import Link from "next/link";
-import RightTini from "@/assets/RightTini";
-import Down from "@/assets/Down";
+// import RightTini from "@/assets/RightTini";
+// import Down from "@/assets/Down";
 import { useTranslations } from "next-intl";
 
 type MobileMenuProps = {
@@ -24,7 +24,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ textColorFirstStage }) => {
     setIsActivitiesOpen(false);
   };
 
-  const toggleActivities = () => setIsActivitiesOpen((prev) => !prev);
+  // const toggleActivities = () => setIsActivitiesOpen((prev) => !prev);
 
   return (
     <div className="relative">
@@ -69,18 +69,17 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ textColorFirstStage }) => {
                   {t("aboutCompany")}
                   {/* О компании */}
                 </Link>
-                <button
+                {/* <button
                   className="hover:text-[#1151AB] text-sm flex items-center justify-between"
                   onClick={toggleActivities}
                 >
                   {t("activities")}
-                  {/* Деятельность */}
                   {isActivitiesOpen ? (
                     <Down width="20" height="20" />
                   ) : (
                     <RightTini width="20" height="20" />
                   )}
-                </button>
+                </button> */}
                 <AnimatePresence>
                   {isActivitiesOpen && (
                     <motion.div
@@ -148,14 +147,15 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ textColorFirstStage }) => {
                   {t("sustainableDevelopment")}
                   {/* Технологии */}
                 </Link>
-                <Link
+                {/* <Link
                   href="/media"
                   className="hover:text-[#1151AB] text-sm"
                   onClick={handleClose}
                 >
                   {t("mediaCenter")}
-                  {/* Медиа-центр */}
-                </Link>
+                </Link> */}
+                {/* Медиа-центр */}
+
                 <Link
                   href="/contacts"
                   className="hover:text-[#1151AB] text-sm"

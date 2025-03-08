@@ -14,17 +14,25 @@ const Unicum = () => {
       {/* Фон изображения */}
       <div className="absolute top-0 left-0 w-full h-[650px] md:h-[800px]">
         <Image
-          src="/about/peshera.png"
+          src="/matrch/wtf.jpg"
           alt="пещера"
           layout="fill"
           objectFit="cover"
           quality={100}
-          className="z-0"
+          className="z-0 hidden md:block"
+        />
+        <Image
+          src="/matrch/wtfMini.jpg"
+          alt="пещера"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+          className="z-0 block md:hidden"
         />
       </div>
 
       {/* Текст поверх изображения */}
-      <div className="relative z-10 container mx-auto px-[30px] pt-[150px] md:pt-[400px] w-full flex flex-col gap-10">
+      <div className="relative z-10 container mx-auto px-[30px] pt-[300px] md:pt-[600px] w-full flex flex-col gap-10">
         <h1 className=" text-white">
           {t("title")}
           {/* Что делает нас уникальными? */}

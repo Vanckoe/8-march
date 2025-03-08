@@ -2,11 +2,11 @@ import React from "react";
 import Title from "./_components/title";
 import Description from "./_components/description";
 import AboutBenefits from "./_components/aboutBenefits";
-import Partners from "./_components/partners";
+// import Partners from "./_components/partners";
 import Unicum from "./_components/unicum";
 // import News from "../main/_components/news";
 // import Contacts from "../main/_components/contacts";
-import Team from "./_components/team";
+// import Team from "./_components/team";
 
 const AboutPage = () => {
   return (
@@ -14,9 +14,9 @@ const AboutPage = () => {
       <Title />
       <Description />
       <AboutBenefits />
-      <Partners />
+      {/* <Partners /> */}
       <Unicum />
-      <Team />
+      {/* <Team /> */}
       {/* <News /> */}
       {/* <Contacts /> */}
     </div>
